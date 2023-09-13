@@ -1,0 +1,204 @@
+]
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the About section */
+#about {
+  background-color: #fff; /* Background color for the About section */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+#about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Text color for the About section heading */
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666; /* Text color for the About section content */
+}
+
+/* Style the Portfolio section */
+#portfolio {
+  background-color: #f8f8f8; /* Background color for the Portfolio section */
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+#portfolio h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Text color for the Portfolio section heading */
+}
+
+/* Style individual portfolio items */
+.portfolio-item {
+  background-color: #fff; /* Background color for portfolio items */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.portfolio-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Text color for portfolio item titles */
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666; /* Text color for portfolio item descriptions */
+}
+
+.portfolio-item a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #333; /* Background color for portfolio item links/buttons */
+  color: #fff; /* Text color for portfolio item links/buttons */
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-item a:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+/* Style the Contact section */
+#contact {
+  background-color: #fff; /* Background color for the Contact section */
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Text color for the Contact section heading */
+}
+
+/* Style the contact methods */
+.contact-method {
+  margin-bottom: 20px;
+}
+
+.contact-method h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Text color for contact method titles */
+}
+
+.contact-method p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666; /* Text color for contact method descriptions */
+}
+
+/* Style the contact buttons or links */
+.contact-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #333; /* Background color for contact buttons/links */
+  color: #fff; /* Text color for contact buttons/links */
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+
+
+
+
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    header nav ul li {
+        margin: 0 10px;
+    }
+    
+    section {
+        padding: 20px;
+    }
+}
