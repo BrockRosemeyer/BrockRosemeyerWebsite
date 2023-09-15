@@ -72,6 +72,9 @@ footer {
   margin-bottom: 20px;
 }
 
+#avatar{
+
+}
 #about h2 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -180,11 +183,6 @@ footer {
 .contact-button:hover {
   background-color: #555; /* Background color on hover */
 }
-
-
-
-
-
 
 
 /* Responsive styles for smaller screens */
